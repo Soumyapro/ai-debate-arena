@@ -4,6 +4,8 @@ Two large language models debate any topic you give them. One argues for it, the
 
 Live app: https://ai-debate-arena-vjsbxdo2xtepebx3n7vurq.streamlit.app/
 
+![Screenshot of AI Debate Arena showing a live debate between two models](img1.png)
+
 ## What it does
 
 * You type in a resolution (for example: "Vibe coding destroys problem solving skills").
