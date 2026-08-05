@@ -75,7 +75,3 @@ Live app: https://ai-debate-arena-vjsbxdo2xtepebx3n7vurq.streamlit.app/
 ## Configuration
 
 The number of rounds and the word limit per turn are fixed in `main.py` and are not exposed as controls in the interface. Open `main.py` and change `total_rounds` and `max_words` there if you want longer or shorter debates.
-
-## License
-
-No license has been added yet. Add one (for example MIT or Apache 2.0) before treating this as open source, if you want others to be free to reuse it.
