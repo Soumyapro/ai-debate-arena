@@ -1,0 +1,26 @@
+# Shared settings — cannot vary between light/dark, so they live at the top level.
+[theme]
+font = "sans-serif"
+baseRadius = "medium"
+
+# ----- Light mode -----
+[theme.light]
+primaryColor = "#E77B49"              # orange — buttons, sliders, active accents
+backgroundColor = "#FFFBF8"            # warm near-white
+secondaryBackgroundColor = "#F5E1D8"   # light peach — widget/card backgrounds
+textColor = "#2B1310"                  # near-black warm brown
+borderColor = "#E3C4B7"
+linkColor = "#95271D"
+redColor = "#95271D"                   # ties st.error/danger states into the palette
+orangeColor = "#E77B49"                # ties st.warning into the palette
+
+# ----- Dark mode -----
+[theme.dark]
+primaryColor = "#E77B49"               # same accent, reads well on dark too
+backgroundColor = "#1A0F0D"            # near-black warm brown
+secondaryBackgroundColor = "#3A1712"   # dark maroon — widget/card backgrounds
+textColor = "#F5E7E0"                  # warm off-white
+borderColor = "#5A2A23"
+linkColor = "#E77B49"
+redColor = "#B34A44"
+orangeColor = "#E77B49"
