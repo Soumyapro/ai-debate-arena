@@ -76,7 +76,7 @@ prompt2 = ChatPromptTemplate.from_messages([
 # initialize model 1
 first_llm_model = init_chat_model(
     model_provider="groq",
-    model="llama-3.3-70b-versatile"
+    model="openai/gpt-oss-20b"
 )
 
 # initialize model 2
